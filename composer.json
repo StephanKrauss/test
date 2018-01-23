@@ -1,5 +1,14 @@
 {
     "require": {
-        "phpmd/phpmd": "^2.6"
+        "phpmd/phpmd": "^2.6",
+        "mc388/captainhook": "^1.0"
+    },
+    "scripts": {
+        "post-install-cmd": [
+            "MarvinCaspar\\CaptainHook\\Hooks::install"
+        ],
+        "post-update-cmd": [
+            "MarvinCaspar\\CaptainHook\\Hooks::install"
+        ]
     }
 }

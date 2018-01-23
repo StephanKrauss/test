@@ -4,8 +4,34 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "c85d959f77f3871fabbc1fb53bf72e39",
+    "content-hash": "10e7d53ffd7656c878eece165cc24cad",
     "packages": [
+        {
+            "name": "mc388/captainhook",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mc388/CaptainHook.git",
+                "reference": "bce29bfb0a472199980c10122bef31ff97f7fe96"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mc388/CaptainHook/zipball/bce29bfb0a472199980c10122bef31ff97f7fe96",
+                "reference": "bce29bfb0a472199980c10122bef31ff97f7fe96",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "MarvinCaspar\\CaptainHook\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "time": "2016-11-03T21:52:33+00:00"
+        },
         {
             "name": "pdepend/pdepend",
             "version": "2.5.2",
