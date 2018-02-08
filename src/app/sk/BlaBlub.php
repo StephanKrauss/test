@@ -17,6 +17,28 @@
                 $foo = $wert;
             elseif($wert = 1)
                 $foo = $wert;
+            elseif($wert = 1)
+                $foo = $wert;
+            elseif($wert = 1)
+                $foo = $wert;
+            elseif($wert = 1)
+                $foo = $wert;
+            elseif($wert = 1)
+                $foo = $wert;
+            elseif($wert = 1)
+                $foo = $wert;
+            elseif($wert = 1)
+                $foo = $wert;
+            elseif($wert = 1)
+                $foo = $wert;
+            elseif($wert = 1)
+                $foo = $wert;
+            elseif($wert = 1)
+                $foo = $wert;
+            elseif($wert = 1)
+                $foo = $wert;
+            elseif($wert = 1)
+                $foo = $wert;
         }
 
     }
