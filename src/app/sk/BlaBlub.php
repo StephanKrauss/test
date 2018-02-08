@@ -2,6 +2,10 @@
 
     class BlaBlub
     {
+        /**
+         * @param $wert
+         */
+
         public function bla($wert)
         {
             if($wert == 1)
