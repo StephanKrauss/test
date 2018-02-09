@@ -9,5 +9,13 @@
       "psr-4": {
           "App\\": "src/app/"
       }
-  }
+  },
+    "scripts": {
+        "post-install-cmd": [
+            "MarvinCaspar\\CaptainHook\\Hooks::install"
+        ],
+        "post-update-cmd": [
+            "MarvinCaspar\\CaptainHook\\Hooks::install"
+        ]
+    }
 }
