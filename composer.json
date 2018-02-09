@@ -10,5 +10,10 @@
         "post-update-cmd": [
             "MarvinCaspar\\CaptainHook\\Hooks::install"
         ]
-    }
+    },
+  "autoload": {
+      "psr-4": {
+          ""
+      }
+  }
 }
